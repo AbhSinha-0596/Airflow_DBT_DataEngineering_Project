@@ -41,6 +41,6 @@ A scalable, production-grade data pipeline built using the **Medallion Lakehouse
 ### Prerequisites
 
 1. Access to a **Databricks Workspace** with an active cluster or SQL Warehouse.
-2. **Apache Airflow 2.x+** installed locally or hosted via MWAA/Astronomer.
-3. Python 3.9+ installed locally.
+2. **Apache Airflow 3.8.0+** installed locally or hosted via MWAA/Astronomer.
+3. Python 3.11+ installed locally.
 
