@@ -1,11 +1,11 @@
 walmart_project:
   outputs:
     dev:
-      catalog: walmart_project
-      host: dbc-345da47f-f997.cloud.databricks.com
-      http_path: /sql/1.0/warehouses/2f682223358cb75a
-      schema: bronze_data
+      catalog: catalog name
+      host: host path
+      http_path: your access path
+      schema: your schema
       threads: 1
-      token: dapi99fc367e6d6509789ca7b72e38890495
+      token: your token
       type: databricks
   target: dev

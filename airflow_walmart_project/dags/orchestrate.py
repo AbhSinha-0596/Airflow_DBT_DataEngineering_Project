@@ -9,10 +9,10 @@ def orchestrate():
     @task
     def ingest_cdc():
         ws = WorkspaceClient(
-            host="https://dbc-345da47f-f997.cloud.databricks.com",
-            token= "dapi99fc367e6d6509789ca7b72e38890495"
+            host="workspace-http-databricks",
+            token= "access token for databricks"
         )
-        job_trigger=ws.jobs.run_now(job_id=230803767352281)
+        job_trigger=ws.jobs.run_now(job_id= 012345)
 
         while True:
             job_run = ws.jobs.get_run(job_trigger.run_id)
