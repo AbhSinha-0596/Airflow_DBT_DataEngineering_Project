@@ -1,0 +1,10 @@
+snapshots:
+  - name: dim_customer
+    relation: ref('eph_customer')
+    config:
+      database: walmart_project
+      schema: gold
+      strategy: timestamp
+      unique_key: customer_id
+      updated_at: customer_updated_timestamp
+      dbt_valid_to_current: "to_date('9999-12-31')"
